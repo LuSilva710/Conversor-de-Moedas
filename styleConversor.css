@@ -1,0 +1,117 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://images.vexels.com/media/users/3/273979/raw/d6a4d48e88be421a2d636805b306a0ad-projeto-de-padr-o-de-pixel-de-moeda-de-dinheiro.jpg");
+    background-size: 300vh;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    border: 2px solid #fff;
+    font-size: 1.2rem;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 170px;
+  }
+  
+  main {
+    padding: 20px;
+    width: 500px;
+    margin: 10% auto 25px;
+    position: relative;
+    border: 2px solid #fff;
+    text-align: center;
+    background: #333333;
+  }
+  
+  input {
+    color: #000000;
+    font-size: 20px;
+    margin: 15px 5px;
+    width: 72%;
+    border-radius: 10px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    font-size: 1rem;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 560;
+  }
+  
+  label {
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+  }
+  
+  select {
+    color: #000000;
+    border-radius: 10px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    margin: 10px auto;
+    padding: 1em 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 550;
+  }
+  
+  button {
+    width: 72%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    margin: 20px auto;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #000000;
+  }
+  
+  h2 {
+    width: 63%;
+    margin: 25px auto;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    display: block;
+    padding: 25px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 560;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  span {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+  }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Moedas</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleConversor.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header class="container">
+        <h1 class="page-title">
+            Conversor de moedas💲
+        </h1>
+        <p class="page-subtitle">
+            Faça a conversão de suas moedas AQUI!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt=""><br><br>
+        </header>
+        <main>
+            <div class="caixa">
+                <label for="moeda_in">Moeda de entrada:</label>
+                <input type="number" id="valor" placeholder="R$ 0,00" />
+
+                <label for="moeda_in">Moeda de saída:</label>
+                <select name="valor_saida" id="moedas">
+                    <optgroup label='Principais'>
+                        <option value='NULL' selected>MOEDA DE SAÍDA</option>
+                        <option value='BRL'>REAL DO BRASIL (R&dollar;) </option>
+                        <option value='USD'>DOLAR DO ESTADOS UNIDOS (&dollar;) </option>
+                        <option value='EUR'>EURO (&euro;) </option>
+                        <option value='ARS'>PESO ARGENTINO (&dollar;) </option>
+                        <option value='UYU'>PESO URUGUAIO (&dollar;) </option>
+                        <option value='CAD'>DÓLAR CANADENSE</option>
+                        <option value='AUD'>DÓLAR AUSTRALIANO</option>
+                        <option value='GBP'>LIBRA ESTERLINA</option>
+                        <option value='JPY'>IENE JAPONÊS</option>
+                        <option value='CNY'>YUAN CHINÊS</option>
+                        <option value='CHF'>FRANCO SUÍÇO</option>
+                    </optgroup>
+                    <optgroup label='Criptomoedas'>
+                        <option value='BTC'>BITCOIN (&#x20BF;)</option>
+                        <option value='ETH'>ETHEREUM (ETH)</option>
+                        <option value='LTC'>LITECOIN</option>
+                        <option value='DOGE'>DOGECOIN</option>
+                        <option value='XRP'>XRP</option>
+                    </optgroup>
+                </select>
+
+                <button type="drop" onclick="converter()">Converter <i class='fas fa-exchange-alt'></i></button>
+
+                <h2 id="valorConvertido"></h2>
+                <span id="atualizacao"></span>
+
+            </div>
+        </main>
+   
+        <script src="conversor.js"></script>
+</body>
+
+</html>
